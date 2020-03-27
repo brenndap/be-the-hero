@@ -1,0 +1,64 @@
+.register-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.register-card {
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    margin-top: 38px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.register-container section.info img {
+    margin-bottom: 100px;
+}
+
+.register-container section.info h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.register-container section.info p {
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.register-container section.info svg {
+    margin-right: 10px;
+}
+
+.register-container section.info a {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #41414d;
+    transition: opacity 0.2s;
+}
+
+.register-container section.info a:hover {
+    opacity: 0.8;
+}
+
+.register-container section.form input {
+    margin-bottom: 10px;
+}
+
+.register-container section.form div {
+    display: flex;
+}
+
+.register-container section.form div input + input {
+    margin-left: 8px;
+}

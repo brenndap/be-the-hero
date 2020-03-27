@@ -29,6 +29,10 @@ module.exports = {
             ong_id
         })
 
+        if (!ong_id) {
+            return res.status(401).json({ error: "Operation not permitted." })
+        }
+
         return res.json({ id })
     },
 
