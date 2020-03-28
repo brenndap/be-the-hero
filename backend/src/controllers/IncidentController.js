@@ -48,7 +48,7 @@ module.exports = {
         if (incident.ong_id !== ong_id) {
             return res.status(401).json({ error: "Operation not permitted." })
         }
-
+        console.log(incident)
         await connection('incidents').where('id', id).delete()
 
         return res.status(204).send()
